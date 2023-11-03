@@ -6,6 +6,7 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "dev": "nodemon src/app.js -e js,hbs",
+    "start" : "node src/app.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
