@@ -34,7 +34,7 @@
     padding: 1rem;
  }
  .form-container{
-    background-color: #00000053;
+    background-color: #000000b9;
     color: white;
     padding: 3rem;
     font-size: 1.5rem;
@@ -51,6 +51,8 @@
  }
  #bookBtn:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
  }
  .footer{
   background-color: rgba(31, 44, 112, 0.64);
@@ -152,6 +154,11 @@
     else if (ts == 8) {
       seatCap.innerHTML = arr[3];
     }
+  })
+
+  const bookBtn = document.getElementById('bookBtn');
+  bookBtn.addEventListener('click', function(){
+    alert("Booking Successful!")
   })
 </script>
 
